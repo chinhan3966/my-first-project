@@ -1,0 +1,356 @@
+body{
+    height: 5000px;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    height: 90px;
+    background: url(https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?size=626&ext=jpg);
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+}
+
+.logo{
+    width: 280px;
+    color: orange;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: cursive;
+    padding: 20px;
+    margin-left: 10px;
+    float: left;
+}
+
+.navbar{
+    float: left;
+    margin-left: 250px;
+    width: 700px;
+    height: 50px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul li{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 40px ;
+    
+
+}
+
+ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+ul li a:hover{
+    color: #0099FF;
+}
+
+.search{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 6%;
+    left: 30%;
+}
+
+.search-btn{
+    display: inline-block; 
+    color: #fff ;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+    
+}
+.search-btn:hover{
+    background-color: orangered;
+    transition: 0.1s ease;
+}
+.search-btn1{
+    display: inline-block;
+    color: #fff ;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 100px;    
+    margin-top: 20px;
+}
+.search-btn1:hover{
+    background-color: orangered;
+    transition: 0.1s ease;
+}
+
+
+
+.image{
+    width: 100%;
+    height: 400px;
+    margin-top: 90px;
+    padding: 10px 0;
+  
+}
+
+.list{
+    background-color: #FFF;
+    width: 100%;
+    height: 150px;
+}
+
+.list-fire{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.list-icon{
+    color: orangered;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.list-hotdeal{
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif ;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.list-p{
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+
+.shirt{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.shirt1{
+    flex-basis: 30%;
+}
+
+.shirt2{
+    flex-basis: 30%;
+}
+.shirt3{
+    flex-basis: 30%;
+}
+
+img{
+    width: 100%;
+}
+
+.shirt-p{
+    text-align: center;
+    font-family: cursive;
+    cursor: pointer;
+   
+}
+
+.shirt-p1{
+    text-align: center;
+    font-family: cursive;
+    cursor: pointer;
+    margin-right: 104px;
+}
+span{
+    display: block;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    font-family: cursive;
+}
+
+.span1{
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.accessory{
+   position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.accessory-a{
+    text-decoration: none;
+}
+
+.accessory-span{
+    color: #0099FF;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: cursive;
+}
+
+.accessory-icon{
+    position: absolute;
+    top: 6px;
+    right: 800px;
+    font-size: 33px;
+}
+
+.accessory-icon1{
+    position: absolute;
+    top: 6px;
+    right: 508px;
+    font-size: 33px;
+}
+
+.hr{
+    width: 100px;
+    height: 5px;
+    background: #000;
+    margin-left: 627px;
+    margin-top: 11px;
+    
+}
+
+.annouce{
+    margin-top: 75px;
+    text-align: center;
+}
+
+.annouce-h2{
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.annouce-p{
+    margin-top: -20px;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.banner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.banner1{
+    flex-basis: 30%;
+}
+
+.banner2{
+    flex-basis: 30%;
+}
+
+.banner3{
+    flex-basis: 30%;
+}
+
+.banner1-center{
+    text-align: center;
+}
+.banner2-center{
+    text-align: center;
+}
+.banner3-center{
+    text-align: center;
+    margin-top: 3px;
+}
+
+.banner-h4{
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.banner-p{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+
+}
+
+.login{
+    width: 100%;
+    height: 100px;
+    background: orange;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.login-h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 32px;
+}
+
+.login-input{
+    
+    width: 369px;
+    height: 44px;
+    margin-top: 31px;
+    border: none;
+    outline: none;
+    left: -182px;
+    padding: 0 10px;
+}
+
+.login-button{
+    
+    width: 140px;
+    height: 44px;
+    margin-top: 31px;
+    right: 179px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.login-button:hover{
+    border-radius: 10px;
+    background:#34495e;
+    color: #ecf0f1;
+}
+
+.login1{
+    display: flex;
+    
+}
+
+
+
+    
+    
